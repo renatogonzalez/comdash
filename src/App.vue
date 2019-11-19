@@ -1,17 +1,25 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang='pug'>
+  #app
+    UsersBox
+    InfoBox
+    PicksBox
+    AboutBox
+    Test
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UsersBox from './components/UsersBox.vue'
+import InfoBox from './components/InfoBox.vue'
+import PicksBox from './components/PicksBox.vue'
+import AboutBox from './components/AboutBox.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    UsersBox,
+    InfoBox,
+    PicksBox,
+    AboutBox
   }
 }
 </script>
