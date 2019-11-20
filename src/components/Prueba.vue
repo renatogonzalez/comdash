@@ -1,12 +1,11 @@
 <template lang='pug'>
-  section#aboutbox
-
-    
+  section#prueba
+    h1 pruea
 </template>
 
 <script>
 export default {
-  name: 'AboutBox'
+  name: 'Prueba'
 }
 </script>
 

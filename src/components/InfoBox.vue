@@ -1,15 +1,13 @@
 <template lang='pug'>
   section#infobox
-    h1 Título
-    p Este es un parrafo feo
-    h3 Este es el tercer parrafo
-    button(style="border-radius:10px; border:3px solid red; background:yellow; width:200px; height:100px;")
-      a(href='google.com' style="font-size:30px; display:block") Click aquí
-
-    div(style="position:fixed; left:20px; top:300px; border:3px solid blue")
-      iframe(width='460', height='220', src='https://www.youtube.com/embed/UyNufyV3VCo', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
-
-      
+    div.title
+      h1.get.start Getting Started
+    div.installation
+      h2.install-txt Installation
+    div.instruction
+      h3.instruction-txt pug is availale in npm:
+    div.install-box 
+      p.text-code $ npm install pug
 </template>
 
 <script>
@@ -19,4 +17,39 @@ export default {
 </script>
 
 <style scoped>
+.title {
+  margin-left: 225px;
+}
+
+.get.start {
+  font-size: 40px;
+  text-align: left
+}
+
+.installation {
+  margin-left: 230px;
+}
+
+.install-txt {
+  text-align: left;
+  font-size: 30px;
+}
+
+.instruction {
+  margin-left: 400px;
+}
+
+.instruction-txt {
+  text-align: left;
+}
+
+.install-box {
+  border: 2px solid #2c3e50;
+  margin-left: 400px;
+  margin-right: 800px
+}
+
+.text-code {
+  font-size: 20px;
+}
 </style>

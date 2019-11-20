@@ -4,7 +4,7 @@
     InfoBox
     PicksBox
     AboutBox
-    Test
+    Prueba
 </template>
 
 <script>
@@ -12,6 +12,7 @@ import UsersBox from './components/UsersBox.vue'
 import InfoBox from './components/InfoBox.vue'
 import PicksBox from './components/PicksBox.vue'
 import AboutBox from './components/AboutBox.vue'
+import Prueba from './components/Prueba.vue'
 
 export default {
   name: 'app',
@@ -19,7 +20,8 @@ export default {
     UsersBox,
     InfoBox,
     PicksBox,
-    AboutBox
+    AboutBox,
+    Prueba
   }
 }
 </script>
